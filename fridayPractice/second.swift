@@ -29,6 +29,6 @@ struct SettingsView: View {
 
 #Preview {
     SettingsView()
-        .environment(SettingsViewModel())// we should inject an environment
+        .environment(SettingsViewModel())// we should inject an Object
 }
 
