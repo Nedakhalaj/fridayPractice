@@ -1,7 +1,7 @@
 # Kodkliniken - Neda khalaj
 
 ## Patient jag ansvarade för
-- all of them
+- alla av dem
 
 ## Symptom
 - Vad fungerade inte när du fick koden?
