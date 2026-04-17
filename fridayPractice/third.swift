@@ -28,7 +28,7 @@ struct TaskListView: View {
 
     var body: some View {
         List {
-            ForEach($viewModel.tasks) { $task in //without $$ is just read only, but if we want t o use it in toggle we need to put $
+            ForEach($viewModel.tasks) { $task in //without $ is just read only, but if we want t o use it in toggle we need to put $
                 HStack {
                     Text(task.title)
                     Spacer()

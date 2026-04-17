@@ -29,5 +29,5 @@ struct ProfileEditView: View {
 
 #Preview {
     ProfileEditView()
-        .environment(ProfileViewModel()) //it should add it , there is @Environment but we didnt inject anything to it
+        .environment(ProfileViewModel()) //it should add it , there is @Environment but we didnt inject an object to it
 }
